@@ -1,0 +1,16 @@
+{
+    "name": "Python",
+    "type": "python",
+    "pythonPath":"/Users/kzinmr/miniconda3/envs/tf14/bin/python",
+    "request": "launch",
+    "stopOnEntry": true,
+    "console": "integratedTerminal",
+    "program": "${file}",
+    "cwd": "${workspaceRoot}",
+    "debugOptions": [
+        "WaitOnAbnormalExit",
+        "WaitOnNormalExit",
+        "RedirectOutput"
+    ],
+    "env": {"name":"value"}
+}
